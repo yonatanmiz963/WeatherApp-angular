@@ -1,0 +1,12 @@
+@import "../../../assets/style/setup/variables";
+.item-app {
+    background-color: $clr1;
+    height: 100vh;
+    justify-content: flex-end;
+
+    .item-app-container {
+        height: 90vh;
+        padding: 0 40px;
+
+    }
+}

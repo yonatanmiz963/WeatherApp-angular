@@ -1,0 +1,33 @@
+@import "../../../assets/style/setup/variables";
+
+.nav-container {
+  width: 100%;
+  padding: 10px 40px;
+  top: 0;
+  left: 0;
+  .logo {
+    font-size: 1.4rem;
+    color: $clr1;
+  }
+  a {
+    text-decoration: none;
+    color: $clr4;
+    font-size: 1.3rem;
+
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
+
+  .active-nav {
+    color: $clr2;
+    padding-bottom: 3px;
+    cursor: auto;
+    font-weight: 600;
+  }
+
+  img {
+    max-width: 35px;
+    cursor: pointer;
+  }
+}
